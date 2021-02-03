@@ -19,11 +19,12 @@ this project's license terms taking first priority.
 package main
 
 import (
-	"fmt"
-
 	"gitlab.com/defcronyke/libhob"
+	"gitlab.com/defcronyke/libhob/src/root"
 )
 
 func main() {
-	fmt.Println(libhob.Hello())
+	app := root.HobRoot{}
+
+	libhob.Main(&app)
 }
