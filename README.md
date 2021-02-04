@@ -1,4 +1,4 @@
-# hob - HOB Open Base  
+# hob - Hob Open Base  
   
 Copyright (c) 2021 Jeremy Carter <jeremy@jeremycarter.ca>  
   
