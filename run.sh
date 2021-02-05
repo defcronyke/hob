@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/bash
 # Copyright (c) 2021 Jeremy Carter <jeremy@jeremycarter.ca>
 #
 # All uses of this project in part or in whole are governed
@@ -15,5 +15,5 @@
 # terms from all of the different technologies apply, with
 # this project's license terms taking first priority.
 
-go build
+go build && \
 ./hob
